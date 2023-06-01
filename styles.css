@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(94, 103, 94);
+    font-family: 'Economica', sans-serif;
+
+}
+
+h1{
+    margin: 30px;
+    color: aliceblue;
+}
+
+h3{
+    color: floralwhite;
+}
+
+.app{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(129, 177, 172);
+    margin-bottom: 20px;
+    width: 600px;
+    height: 700px;
+    border-radius: 30px;
+    border: 1px solid rgb(52, 91, 52);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.d-grid{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.add-list{
+    width: 130%;   
+}
+
+.items-list{
+    display: grid;
+    justify-items: center;
+}
+
+.items-area{
+    display: flex;
+    justify-content: start;
+    background-color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+li{
+    list-style-image: url(./pngwing.com.png);
+    color: rgb(0, 0, 0);
+    height: min-content;
+    padding: 10px;
+}
+
+.liDiv{
+    display: flex;
+    flex: 1;
+}
+
+.btnDelete{
+    color: white;
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    left: 0;
+}
+
+.btnCheck{
+    color: white;
+    background-color: rgb(255, 200, 0);
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    margin-left: auto;
+}
+
+.u-list{
+    margin: 10px;
+    flex: 1;
+}
+
+
